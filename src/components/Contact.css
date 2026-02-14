@@ -152,3 +152,38 @@
 .btn:disabled:hover {
   transform: none;
 }
+
+/* Contact divider */
+.contact-divider {
+  margin: var(--spacing-lg) 0;
+  text-align: center;
+  position: relative;
+}
+
+.contact-divider::before,
+.contact-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: calc(50% - 80px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-border), transparent);
+}
+
+.contact-divider::before {
+  left: 0;
+}
+
+.contact-divider::after {
+  right: 0;
+}
+
+.divider-text {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0 var(--spacing-sm);
+  background: var(--color-bg);
+}
