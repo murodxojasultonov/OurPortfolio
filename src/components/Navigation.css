@@ -1,0 +1,130 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--color-border);
+  z-index: 1000;
+  height: var(--nav-height);
+  transition: all 0.3s ease;
+}
+
+.nav.scrolled {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-logo {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: var(--transition-base);
+}
+
+.nav-logo:hover {
+  color: var(--color-primary);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: var(--spacing-lg);
+}
+
+.nav-link {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  transition: var(--transition-base);
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-primary);
+  transition: width 0.2s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Language Switcher */
+.language-switcher {
+  display: flex;
+  gap: var(--spacing-xs);
+  padding: 4px;
+  background-color: var(--color-bg-alt);
+  border-radius: 6px;
+}
+
+.lang-btn {
+  padding: 6px 12px;
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: var(--transition-base);
+  font-family: var(--font-sans);
+}
+
+.lang-btn:hover {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.lang-btn.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  
+  .nav-right {
+    gap: var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .language-switcher {
+    gap: 2px;
+    padding: 3px;
+  }
+  
+  .lang-btn {
+    padding: 5px 10px;
+    font-size: 0.8125rem;
+  }
+}
