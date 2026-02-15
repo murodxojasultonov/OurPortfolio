@@ -12,7 +12,7 @@ export const translations = {
       subtitle: "1C Developer / Python Developer / ViteJS Specialist",
       description: "ERP systems, automation, integrations, CRM. Focus on efficiency, accuracy, and scalability.",
       viewProjects: "View Projects",
-      contactMe: "Contact Me"
+      contactMe: "Contact Us"
     },
     projects: {
       title: "Projects",
@@ -50,8 +50,8 @@ export const translations = {
     },
     about: {
       title: "About",
-      story: "My interest in business systems and automation started at an early age. Over the years, I've worked in both corporate environments and as a freelance developer, always focusing on delivering long-term, high-quality solutions that truly serve business needs.",
-      whyTitle: "Why Work With Me",
+      story: "Our interest in business systems and automation started at an early age. Over the years, we've worked in both corporate environments and as freelance developers, always focusing on delivering long-term, high-quality solutions that truly serve business needs.",
+      whyTitle: "Why Work With Us",
       value1: "Business-oriented development focused on real outcomes",
       value2: "Clean and maintainable solutions that scale",
       value3: "Fast understanding of existing systems and workflows",
@@ -84,7 +84,7 @@ export const translations = {
       subtitle: "1C Разработчик / Python Разработчик / ViteJS Специалист",
       description: "ERP-системы, автоматизация, интеграции, CRM. Фокус на эффективность, точность и масштабируемость.",
       viewProjects: "Посмотреть проекты",
-      contactMe: "Связаться со мной"
+      contactMe: "Связаться с нами"
     },
     projects: {
       title: "Проекты",
@@ -122,8 +122,8 @@ export const translations = {
     },
     about: {
       title: "О себе",
-      story: "Мой интерес к бизнес-системам и автоматизации начался в раннем возрасте. За годы работы в корпоративной среде и в качестве фрилансера я всегда фокусировался на создании долгосрочных, качественных решений, которые действительно служат потребностям бизнеса.",
-      whyTitle: "Почему стоит работать со мной",
+      story: "Наш интерес к бизнес-системам и автоматизации начался в раннем возрасте. За годы работы в корпоративной среде и в качестве фрилансеров мы всегда фокусировались на создании долгосрочных, качественных решений, которые действительно служат потребностям бизнеса.",
+      whyTitle: "Почему стоит работать с нами",
       value1: "Ориентированная на бизнес разработка с фокусом на реальные результаты",
       value2: "Чистые и поддерживаемые решения, которые масштабируются",
       value3: "Быстрое понимание существующих систем и рабочих процессов",
@@ -156,7 +156,7 @@ export const translations = {
       subtitle: "1C Dasturchi / Python Dasturchi / ViteJS Mutaxassisi",
       description: "ERP tizimlari, avtomatlashtirish, integratsiyalar, CRM. Samaradorlik, aniqlik va miqyosga e'tibor.",
       viewProjects: "Loyihalarni ko'rish",
-      contactMe: "Men bilan bog'lanish"
+      contactMe: "Biz bilan bog'lanish"
     },
     projects: {
       title: "Loyihalar",
@@ -194,8 +194,8 @@ export const translations = {
     },
     about: {
       title: "Men haqimda",
-      story: "Biznes tizimlari va avtomatlashtirishga qiziqishim erta yoshdanoq boshlangan. Yillar davomida korporativ muhitda ham, mustaqil dasturchi sifatida ham ishlab, doimo biznes ehtiyojlariga haqiqatan xizmat qiluvchi uzoq muddatli, yuqori sifatli yechimlarni taqdim etishga e'tibor qaratdim.",
-      whyTitle: "Nega men bilan ishlash kerak",
+      story: "Biznes tizimlari va avtomatlashtirishga qiziqishimiz erta yoshdanoq boshlangan. Yillar davomida korporativ muhitda ham, mustaqil dasturchilar sifatida ham ishlab, doimo biznes ehtiyojlariga haqiqatan xizmat qiluvchi uzoq muddatli, yuqori sifatli yechimlarni taqdim etishga e'tibor qaratdik.",
+      whyTitle: "Nega biz bilan ishlash kerak",
       value1: "Haqiqiy natijalarga yo'naltirilgan biznesga yo'naltirilgan ishlab chiqish",
       value2: "Miqyoslanadigan toza va saqlash mumkin bo'lgan yechimlar",
       value3: "Mavjud tizimlar va ish oqimlarini tez tushunish",

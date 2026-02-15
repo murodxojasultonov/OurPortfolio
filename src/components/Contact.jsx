@@ -22,10 +22,19 @@ function Contact({ t, language }) {
     setIsSubmitting(true)
     setSubmitStatus(null)
 
+    // Временное решение (демо режим)
+    // Показываем успешную отправку после короткой задержки
+    setTimeout(() => {
+      setSubmitStatus('success')
+      setFormData({ name: '', email: '', message: '' })
+      setIsSubmitting(false)
+    }, 1000)
+
+    /* 
+    // РАСКОММЕНТИРУЙТЕ ЭТОТ КОД ПОСЛЕ НАСТРОЙКИ EmailJS или Formspree
+    
     try {
       // Вариант 1: Используя EmailJS (рекомендуется)
-      // Раскомментируйте после настройки EmailJS:
-      /*
       const response = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
         method: 'POST',
         headers: {
@@ -49,24 +58,16 @@ function Contact({ t, language }) {
       } else {
         throw new Error('Failed to send')
       }
-      */
 
       // Вариант 2: Используя Formspree (простая альтернатива)
       // Зарегистрируйтесь на formspree.io и получите endpoint
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData)
-      })
-
-      if (response.ok) {
-        setSubmitStatus('success')
-        setFormData({ name: '', email: '', message: '' })
-      } else {
-        throw new Error('Failed to send')
-      }
+      // const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json',
+      //   },
+      //   body: JSON.stringify(formData)
+      // })
 
     } catch (error) {
       console.error('Error sending message:', error)
@@ -74,25 +75,18 @@ function Contact({ t, language }) {
     } finally {
       setIsSubmitting(false)
     }
-
-    // Временное решение: показываем успех (удалите после настройки)
-    // Уберите этот блок когда настроите реальную отправку
-    setTimeout(() => {
-      setSubmitStatus('success')
-      setFormData({ name: '', email: '', message: '' })
-      setIsSubmitting(false)
-    }, 1000)
+    */
   }
 
   const messages = {
     success: {
-      en: 'Thank you for your message! I will get back to you soon.',
-      ru: 'Спасибо за ваше сообщение! Я свяжусь с вами в ближайшее время.',
-      uz: 'Xabaringiz uchun rahmat! Tez orada siz bilan bog\'lanaman.'
+      en: 'Thank you for your message! We will get back to you soon.',
+      ru: 'Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.',
+      uz: 'Xabaringiz uchun rahmat! Tez orada siz bilan bog\'lanamiz.'
     },
     error: {
-      en: 'Something went wrong. Please try again or contact me directly via email.',
-      ru: 'Что-то пошло не так. Попробуйте еще раз или свяжитесь со мной напрямую по email.',
+      en: 'Something went wrong. Please try again or contact us directly via email.',
+      ru: 'Что-то пошло не так. Попробуйте еще раз или свяжитесь с нами напрямую по email.',
       uz: 'Nimadir noto\'g\'ri ketdi. Yana bir bor urinib ko\'ring yoki to\'g\'ridan-to\'g\'ri email orqali bog\'laning.'
     }
   }
