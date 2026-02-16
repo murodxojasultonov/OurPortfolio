@@ -24,13 +24,13 @@ function Contact({ t, language }) {
 
     // Временное решение (демо режим)
     // Показываем успешную отправку после короткой задержки
-    setTimeout(() => {
-      setSubmitStatus('success')
-      setFormData({ name: '', email: '', message: '' })
-      setIsSubmitting(false)
-    }, 1000)
+    //setTimeout(() => {
+    //  setSubmitStatus('success')
+    //  setFormData({ name: '', email: '', message: '' })
+    //  setIsSubmitting(false)
+   // }, 1000)
 
-    /* 
+     
     // РАСКОММЕНТИРУЙТЕ ЭТОТ КОД ПОСЛЕ НАСТРОЙКИ EmailJS или Formspree
     
     try {
@@ -75,7 +75,7 @@ function Contact({ t, language }) {
     } finally {
       setIsSubmitting(false)
     }
-    */
+    
   }
 
   const messages = {
