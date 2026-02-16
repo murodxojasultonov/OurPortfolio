@@ -41,9 +41,9 @@ function Contact({ t, language }) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          service_id: 'YOUR_SERVICE_ID',
-          template_id: 'YOUR_TEMPLATE_ID',
-          user_id: 'YOUR_PUBLIC_KEY',
+          service_id: 'service_f2n16el',
+          template_id: 'template_pohml9q',
+          user_id: 'gPYJisRNmBkCDslk8',
           template_params: {
             from_name: formData.name,
             from_email: formData.email,
