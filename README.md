@@ -123,20 +123,22 @@ npm run preview  # Preview production build
 
 ## 📧 Contact Form Setup
 
-The contact form is ready but needs configuration:
+**✅ EmailJS keys are already configured in the code!**
 
-### Option 1: Formspree (Easiest - 2 minutes)
+The form currently works in **DEMO mode** (shows success without sending emails).
 
-1. Sign up at https://formspree.io/
-2. Create a form → Get Form ID
-3. Update `src/components/Contact.jsx` line 43:
-   ```javascript
-   fetch('https://formspree.io/f/YOUR_FORM_ID'
-   ```
+### To activate real email sending:
 
-### Option 2: EmailJS (More features - 5 minutes)
+1. **Quick activation** - See `ACTIVATE-EMAIL.md` (2 minutes)
+2. **Full guide** - See `EMAIL-SETUP.md` for detailed setup
+3. **Current status** - See `FORM-STATUS.md` for visual guide
 
-See `EMAIL-SETUP.md` for detailed instructions.
+**Your EmailJS credentials:**
+- Service ID: `service_f2n16el`
+- Template ID: `template_pohml9q`
+- Public Key: `gPYJisRNmBkCDslk8`
+
+**Just uncomment the EmailJS block in `Contact.jsx` and it will work!**
 
 ---
 
