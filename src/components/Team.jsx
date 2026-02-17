@@ -9,7 +9,7 @@ function Team({ t }) {
         <div className="team-grid">
           <div className="team-card">
             <div className="team-photo">
-              <img src="/images/murodxoja-new.png" alt="Murodxoja Sultonov" />
+              <img src="/images/murodxoja.png" alt="Murodxoja Sultonov" />
             </div>
             <h3 className="team-name">Murodxoja Sultonov</h3>
             <p className="team-role">{t.team.murodxoja.role}</p>
