@@ -51,7 +51,7 @@ export const translations = {
     },
     about: {
       title: "About",
-      story: "Our interest in business systems and automation started at an early age. Over the years, we've worked in both corporate environments and as freelance developers, always focusing on delivering long-term, high-quality solutions that truly serve business needs.",
+      story: "Our team brings over 2+ years of hands-on experience in business systems and automation. We've worked with organizations like TOSHSHAHARTRANSXIZMAT, implementing 1C:Enterprise solutions, developing ERP systems, and automating complex business processes. With backgrounds in Information Systems Engineering and a passion for creating reliable, maintainable code, we focus on delivering solutions that truly serve your business needs.",
       whyTitle: "Why Work With Us",
       value1: "Business-oriented development focused on real outcomes",
       value2: "Clean and maintainable solutions that scale",
@@ -63,8 +63,8 @@ export const translations = {
       title: "Our Team",
       subtitle: "Meet the developers behind your solutions",
       murodxoja: {
-        role: "Lead Developer & System Architect",
-        description: "Specializes in 1C:Enterprise, ERP systems, and business process automation with 5+ years of experience."
+        role: "1C Developer & Business Analyst",
+        description: "2+ years of experience with 1C:Enterprise 8, MS SQL, and business process automation. Currently working at TOSHSHAHARTRANSXIZMAT. Graduate of Yeodju University (Information Systems Engineering)."
       },
       mirakmal: {
         role: "Full-Stack Developer",
@@ -136,7 +136,7 @@ export const translations = {
     },
     about: {
       title: "О себе",
-      story: "Наш интерес к бизнес-системам и автоматизации начался в раннем возрасте. За годы работы в корпоративной среде и в качестве фрилансеров мы всегда фокусировались на создании долгосрочных, качественных решений, которые действительно служат потребностям бизнеса.",
+      story: "Наша команда имеет более 2+ лет практического опыта в бизнес-системах и автоматизации. Мы работали с такими организациями, как TOSHSHAHARTRANSXIZMAT, внедряя решения на базе 1C:Предприятие, разрабатывая ERP-системы и автоматизируя сложные бизнес-процессы. Имея образование в области инжиниринга информационных систем и стремление создавать надежный, поддерживаемый код, мы фокусируемся на решениях, которые действительно служат потребностям вашего бизнеса.",
       whyTitle: "Почему стоит работать с нами",
       value1: "Ориентированная на бизнес разработка с фокусом на реальные результаты",
       value2: "Чистые и поддерживаемые решения, которые масштабируются",
@@ -148,8 +148,8 @@ export const translations = {
       title: "Наша команда",
       subtitle: "Познакомьтесь с разработчиками ваших решений",
       murodxoja: {
-        role: "Ведущий разработчик и системный архитектор",
-        description: "Специализируется на 1C:Предприятие, ERP-системах и автоматизации бизнес-процессов. Опыт 5+ лет."
+        role: "1C разработчик и бизнес-аналитик",
+        description: "Опыт работы 2+ года с 1C:Предприятие 8, MS SQL и автоматизацией бизнес-процессов. Работает в TOSHSHAHARTRANSXIZMAT. Выпускник университета Yeodju (Инжиниринг информационных систем)."
       },
       mirakmal: {
         role: "Full-Stack разработчик",
@@ -221,7 +221,7 @@ export const translations = {
     },
     about: {
       title: "Men haqimda",
-      story: "Biznes tizimlari va avtomatlashtirishga qiziqishimiz erta yoshdanoq boshlangan. Yillar davomida korporativ muhitda ham, mustaqil dasturchilar sifatida ham ishlab, doimo biznes ehtiyojlariga haqiqatan xizmat qiluvchi uzoq muddatli, yuqori sifatli yechimlarni taqdim etishga e'tibor qaratdik.",
+      story: "Bizning jamoamiz biznes-tizimlari va avtomatlashtirishda 2+ yildan ortiq amaliy tajribaga ega. Biz TOSHSHAHARTRANSXIZMAT kabi tashkilotlar bilan ishlab, 1C:Predpriyatie asosidagi yechimlarni joriy etib, ERP tizimlarini ishlab chiqib va murakkab biznes-jarayonlarni avtomatlashtirdik. Axborot tizimlari muhandisligi bo'yicha ta'limga ega bo'lib va ishonchli, qo'llab-quvvatlanadigan kod yaratishga intilish bilan, biz sizning biznes ehtiyojlaringizga haqiqatan xizmat qiladigan yechimlarga e'tibor qaratamiz.",
       whyTitle: "Nega biz bilan ishlash kerak",
       value1: "Haqiqiy natijalarga yo'naltirilgan biznesga yo'naltirilgan ishlab chiqish",
       value2: "Miqyoslanadigan toza va saqlash mumkin bo'lgan yechimlar",
@@ -233,8 +233,8 @@ export const translations = {
       title: "Bizning jamoa",
       subtitle: "Yechimlaringiz ortidagi dasturchilar bilan tanishing",
       murodxoja: {
-        role: "Bosh dasturchi va tizim arxitektori",
-        description: "1C:Predpriyatie, ERP tizimlari va biznes jarayonlarini avtomatlashtirish bo'yicha mutaxassis. 5+ yillik tajriba."
+        role: "1C dasturchi va biznes-analitik",
+        description: "1C:Predpriyatie 8, MS SQL va biznes-jarayonlarni avtomatlashtirish bo'yicha 2+ yillik tajriba. TOSHSHAHARTRANSXIZMAT'da ishlaydi. Yeodju universiteti bitiruvchisi (Axborot tizimlari muhandisligi)."
       },
       mirakmal: {
         role: "Full-Stack dasturchi",
