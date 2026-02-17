@@ -51,7 +51,7 @@ export const translations = {
     },
     about: {
       title: "About",
-      story: "Our team brings over 3+ years of hands-on experience in business systems and automation. We've worked with organizations like TOSHSHAHARTRANSXIZMAT JSC, implementing 1C:Enterprise solutions, developing ERP systems, and automating complex business processes. With backgrounds in Information Systems Engineering and a passion for creating reliable, maintainable code, we focus on delivering solutions that truly serve your business needs.",
+      story: "Our team brings over 3+ years of hands-on experience in business systems and automation. We've worked with organizations like JSC \"TOSHSHAHARTRANSXIZMAT\", implementing 1C:Enterprise solutions, developing ERP systems, and automating complex business processes. With backgrounds in Information Systems Engineering and a passion for creating reliable, maintainable code, we focus on delivering solutions that truly serve your business needs.",
       whyTitle: "Why Work With Us",
       value1: "Business-oriented development focused on real outcomes",
       value2: "Clean and maintainable solutions that scale",
@@ -64,7 +64,7 @@ export const translations = {
       subtitle: "Meet the developers behind your solutions",
       murodxoja: {
         role: "1C Developer & Business Analyst",
-        description: "3+ years of experience with 1C:Enterprise 8, MS SQL, and business process automation. Currently working at TOSHSHAHARTRANSXIZMAT JSC. Graduate of Yeodju University (Information Systems Engineering)."
+        description: "3+ years of experience with 1C:Enterprise 8, MS SQL, and business process automation. Currently working at JSC \"TOSHSHAHARTRANSXIZMAT\". Graduate of Yeodju University (Information Systems Engineering)."
       },
       mirakmal: {
         role: "Full-Stack Developer | SaaS & CRM Solutions",
@@ -136,7 +136,7 @@ export const translations = {
     },
     about: {
       title: "О себе",
-      story: "Наша команда имеет более 3+ лет практического опыта в бизнес-системах и автоматизации. Мы работали с такими организациями, как TOSHSHAHARTRANSXIZMAT JSC, внедряя решения на базе 1C:Предприятие, разрабатывая ERP-системы и автоматизируя сложные бизнес-процессы. Имея образование в области инжиниринга информационных систем и стремление создавать надежный, поддерживаемый код, мы фокусируемся на решениях, которые действительно служат потребностям вашего бизнеса.",
+      story: "Наша команда имеет более 3+ лет практического опыта в бизнес-системах и автоматизации. Мы работали с такими организациями, как АО \"TOSHSHAHARTRANSXIZMAT\", внедряя решения на базе 1C:Предприятие, разрабатывая ERP-системы и автоматизируя сложные бизнес-процессы. Имея образование в области инжиниринга информационных систем и стремление создавать надежный, поддерживаемый код, мы фокусируемся на решениях, которые действительно служат потребностям вашего бизнеса.",
       whyTitle: "Почему стоит работать с нами",
       value1: "Ориентированная на бизнес разработка с фокусом на реальные результаты",
       value2: "Чистые и поддерживаемые решения, которые масштабируются",
@@ -149,7 +149,7 @@ export const translations = {
       subtitle: "Познакомьтесь с разработчиками ваших решений",
       murodxoja: {
         role: "1C разработчик и бизнес-аналитик",
-        description: "Опыт работы 3+ года с 1C:Предприятие 8, MS SQL и автоматизацией бизнес-процессов. Работает в TOSHSHAHARTRANSXIZMAT JSC. Выпускник университета Yeodju (Инжиниринг информационных систем)."
+        description: "Опыт работы 3+ года с 1C:Предприятие 8, MS SQL и автоматизацией бизнес-процессов. Работает в АО \"TOSHSHAHARTRANSXIZMAT\". Выпускник университета Yeodju (Инжиниринг информационных систем)."
       },
       mirakmal: {
         role: "Full-Stack разработчик | SaaS и CRM решения",
@@ -221,7 +221,7 @@ export const translations = {
     },
     about: {
       title: "Men haqimda",
-      story: "Bizning jamoamiz biznes-tizimlari va avtomatlashtirishda 3+ yildan ortiq amaliy tajribaga ega. Biz TOSHSHAHARTRANSXIZMAT JSC kabi tashkilotlar bilan ishlab, 1C:Predpriyatie asosidagi yechimlarni joriy etib, ERP tizimlarini ishlab chiqib va murakkab biznes-jarayonlarni avtomatlashtirdik. Axborot tizimlari muhandisligi bo'yicha ta'limga ega bo'lib va ishonchli, qo'llab-quvvatlanadigan kod yaratishga intilish bilan, biz sizning biznes ehtiyojlaringizga haqiqatan xizmat qiladigan yechimlarga e'tibor qaratamiz.",
+      story: "Bizning jamoamiz biznes-tizimlari va avtomatlashtirishda 3+ yildan ortiq amaliy tajribaga ega. Biz \"TOSHSHAHARTRANSXIZMAT\" AJ kabi tashkilotlar bilan ishlab, 1C:Predpriyatie asosidagi yechimlarni joriy etib, ERP tizimlarini ishlab chiqib va murakkab biznes-jarayonlarni avtomatlashtirdik. Axborot tizimlari muhandisligi bo'yicha ta'limga ega bo'lib va ishonchli, qo'llab-quvvatlanadigan kod yaratishga intilish bilan, biz sizning biznes ehtiyojlaringizga haqiqatan xizmat qiladigan yechimlarga e'tibor qaratamiz.",
       whyTitle: "Nega biz bilan ishlash kerak",
       value1: "Haqiqiy natijalarga yo'naltirilgan biznesga yo'naltirilgan ishlab chiqish",
       value2: "Miqyoslanadigan toza va saqlash mumkin bo'lgan yechimlar",
@@ -234,7 +234,7 @@ export const translations = {
       subtitle: "Yechimlaringiz ortidagi dasturchilar bilan tanishing",
       murodxoja: {
         role: "1C dasturchi va biznes-analitik",
-        description: "1C:Predpriyatie 8, MS SQL va biznes-jarayonlarni avtomatlashtirish bo'yicha 3+ yillik tajriba. TOSHSHAHARTRANSXIZMAT JSC'da ishlaydi. Yeodju universiteti bitiruvchisi (Axborot tizimlari muhandisligi)."
+        description: "1C:Predpriyatie 8, MS SQL va biznes-jarayonlarni avtomatlashtirish bo'yicha 3+ yillik tajriba. \"TOSHSHAHARTRANSXIZMAT\" AJ'da ishlaydi. Yeodju universiteti bitiruvchisi (Axborot tizimlari muhandisligi)."
       },
       mirakmal: {
         role: "Full-Stack dasturchi | SaaS va CRM yechimlari",
