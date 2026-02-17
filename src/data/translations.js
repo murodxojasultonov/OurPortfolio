@@ -5,6 +5,7 @@ export const translations = {
       projects: "Projects",
       skills: "Skills",
       about: "About",
+      team: "Team",
       contact: "Contact"
     },
     home: {
@@ -58,6 +59,18 @@ export const translations = {
       value4: "Clear communication throughout the project",
       value5: "Long-term support and maintenance mindset"
     },
+    team: {
+      title: "Our Team",
+      subtitle: "Meet the developers behind your solutions",
+      murodxoja: {
+        role: "Lead Developer & System Architect",
+        description: "Specializes in 1C:Enterprise, ERP systems, and business process automation with 5+ years of experience."
+      },
+      mirakmal: {
+        role: "Full-Stack Developer",
+        description: "Expert in Python, web development, and API integrations. Passionate about creating efficient solutions."
+      }
+    },
     contact: {
       title: "Contact",
       form: {
@@ -77,6 +90,7 @@ export const translations = {
       projects: "Проекты",
       skills: "Навыки",
       about: "О себе",
+      team: "Команда",
       contact: "Контакты"
     },
     home: {
@@ -130,6 +144,18 @@ export const translations = {
       value4: "Четкая коммуникация на протяжении всего проекта",
       value5: "Подход с расчетом на долгосрочную поддержку и обслуживание"
     },
+    team: {
+      title: "Наша команда",
+      subtitle: "Познакомьтесь с разработчиками ваших решений",
+      murodxoja: {
+        role: "Ведущий разработчик и системный архитектор",
+        description: "Специализируется на 1C:Предприятие, ERP-системах и автоматизации бизнес-процессов. Опыт 5+ лет."
+      },
+      mirakmal: {
+        role: "Full-Stack разработчик",
+        description: "Эксперт в Python, веб-разработке и API-интеграциях. Увлечен созданием эффективных решений."
+      }
+    },
     contact: {
       title: "Контакты",
       form: {
@@ -149,6 +175,7 @@ export const translations = {
       projects: "Loyihalar",
       skills: "Ko'nikmalar",
       about: "Men haqimda",
+      team: "Jamoa",
       contact: "Bog'lanish"
     },
     home: {
@@ -201,6 +228,18 @@ export const translations = {
       value3: "Mavjud tizimlar va ish oqimlarini tez tushunish",
       value4: "Loyiha davomida aniq muloqot",
       value5: "Uzoq muddatli qo'llab-quvvatlash va texnik xizmat ko'rsatish fikri"
+    },
+    team: {
+      title: "Bizning jamoa",
+      subtitle: "Yechimlaringiz ortidagi dasturchilar bilan tanishing",
+      murodxoja: {
+        role: "Bosh dasturchi va tizim arxitektori",
+        description: "1C:Predpriyatie, ERP tizimlari va biznes jarayonlarini avtomatlashtirish bo'yicha mutaxassis. 5+ yillik tajriba."
+      },
+      mirakmal: {
+        role: "Full-Stack dasturchi",
+        description: "Python, veb-ishlab chiqish va API integratsiyalari bo'yicha ekspert. Samarali yechimlar yaratishga ishtiyoqli."
+      }
     },
     contact: {
       title: "Bog'lanish",
