@@ -63,7 +63,7 @@ export const translations = {
       title: "Our Team",
       subtitle: "Meet the developers behind your solutions",
       murodxoja: {
-        role: "1C Developer & Business Analyst",
+        role: "1C Developer & Analyst",
         description: "3+ years of experience with 1C:Enterprise 8, MS SQL, and business process automation. Currently working at JSC \"TOSHSHAHARTRANSXIZMAT\". Graduate of Yeodju University (Information Systems Engineering)."
       },
       mirakmal: {
@@ -148,7 +148,7 @@ export const translations = {
       title: "Наша команда",
       subtitle: "Познакомьтесь с разработчиками ваших решений",
       murodxoja: {
-        role: "1C разработчик и бизнес-аналитик",
+        role: "1C разработчик и аналитик",
         description: "Опыт работы 3+ года с 1C:Предприятие 8, MS SQL и автоматизацией бизнес-процессов. Работает в АО \"TOSHSHAHARTRANSXIZMAT\". Выпускник университета Yeodju (Инжиниринг информационных систем)."
       },
       mirakmal: {
@@ -233,7 +233,7 @@ export const translations = {
       title: "Bizning jamoa",
       subtitle: "Yechimlaringiz ortidagi dasturchilar bilan tanishing",
       murodxoja: {
-        role: "1C dasturchi va biznes-analitik",
+        role: "1C dasturchi va analitik",
         description: "1C:Predpriyatie 8, MS SQL va biznes-jarayonlarni avtomatlashtirish bo'yicha 3+ yillik tajriba. \"TOSHSHAHARTRANSXIZMAT\" AJ'da ishlaydi. Yeodju universiteti bitiruvchisi (Axborot tizimlari muhandisligi)."
       },
       mirakmal: {
